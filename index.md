@@ -20,7 +20,7 @@ Currently, Point-VPN is still in the Proof of Concept (PoC) stage.
 Therefore, we would appreciate it if you could wait for a while before putting it into the production environment.
 We look forward to your feedback.
 
-Feedback from [here](./feedback_jp.md)
+Feedback from [here](./feedback.md)
 
 ## Point-VPNのアーキテクチャ
 
