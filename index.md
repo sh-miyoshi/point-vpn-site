@@ -22,7 +22,7 @@ We look forward to your feedback.
 
 Feedback from [here](./feedback.md)
 
-## Point-VPNのアーキテクチャ
+## Architecture of Point-VPN
 
 Please see [here](./architecture_jp.md).
 
