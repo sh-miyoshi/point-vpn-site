@@ -1,9 +1,5 @@
 # How to feedback
 
-Please use Github ISSUE.
+Please give us your feedback from the link below.
 
-## Steps
-
-- Access to https://github.com/sh-miyoshi/point-vpn-site/issues
-- Click `New issue` button, and click `Get started` for `Feedback`
-- Please comments
+https://docs.google.com/forms/d/e/1FAIpQLSdJ_sZ56BMt2ELLJro-eh5cOn2ZvQze04a6WKRgA3W7Jiz97Q/viewform?usp=sf_link
