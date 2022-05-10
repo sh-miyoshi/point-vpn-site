@@ -18,7 +18,9 @@ Point-VPNはネットワークを繋げるのではなく、アプリ単位で�
 そのため、本番環境への投入は今しばらくお待ちいただけたらと思います。
 また、皆様からの積極的なフィードバックをお待ちしております。
 
-フィードバックの方法は[こちら](./feedback_jp.md)
+フィードバックは以下のリンクからお願いします
+
+https://docs.google.com/forms/d/e/1FAIpQLSeJ_uLqCmH80sbI7V8L5QP_l4kBPEa3ikwE1HHT0T-MCnMazw/viewform?usp=sf_link
 
 ## Point-VPNのアーキテクチャ
 
