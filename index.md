@@ -30,5 +30,5 @@ Please see [here](./architecture.md).
 
 ## Examples
 
-- [How to access to SSH server via Point-VPN](./example_ssh_jp.md)
+- [How to access to SSH server via Point-VPN](./example_ssh.md)
 - [How to access to HTTP server via Point-VPN](./example_http_jp.md)
