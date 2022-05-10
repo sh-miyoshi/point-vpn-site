@@ -67,6 +67,7 @@ Server Agentの起動コマンドは、Server Agentのブロックの「Run Comm
 
 必要な情報を入力し「Create」ボタンを押してください
 Incomming AddressはSSHクライアントでアクセスするためのアドレスを指定してください
+ユーザー名、パスワードは入力できますが、現在は無視されます
 
 ![Create Client Agent](./images/8_create_client_agent.png)
 
@@ -76,7 +77,7 @@ Client Agent起動後、Incomming Addressで指定したアドレスに対して
 ![Client Agent Show](./images/9_client_agent_show.png)
 
 ```bash
-ssh localhost:30000
+ssh localhost -p 30000
 ```
 
 Happy SSH!
