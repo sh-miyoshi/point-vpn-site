@@ -2,19 +2,18 @@
 
 This page describes how to access the SSH server you manage.
 
-## 事前に準備するもの
+## Before you begin
 
 - SSH server
   - the SSH server that you want to access
 - A server to install server agent
-  - SSHサーバーにアクセスできる場所であればどこでも大丈夫です
-    - SSHサーバーと同じサーバーでも問題ありません
+  - Anywhere you can access the SSH server (even within the same computer) is ok.
   - Install Docker
-  - FirewallでOutbound通信を制御している場合は、https://point-vpn-controller.onrender.com と https://router-wq3ixsscka-uc.a.run.app への通信を許可してください
+  - If you control Outbound communication by Firewall, please allow communication to https://point-vpn-controller.onrender.com and https://router-wq3ixsscka-uc.a.run.app
 - Your local PC
   - Install Docker
   - Install SSH Client(ssh command)
-  - FirewallでOutbound通信を制御している場合は、https://point-vpn-controller.onrender.com と https://router-wq3ixsscka-uc.a.run.app への通信を許可してください
+  - If you control Outbound communication by Firewall, please allow communication to https://point-vpn-controller.onrender.com and https://router-wq3ixsscka-uc.a.run.app
 
 ## Steps
 
