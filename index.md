@@ -26,9 +26,11 @@ https://docs.google.com/forms/d/e/1FAIpQLSdJ_sZ56BMt2ELLJro-eh5cOn2ZvQze04a6WKRg
 
 ## Architecture of Point-VPN
 
-Please see [here](./architecture.md).
+![Architecture](./images/architecture.png)
+
+Please see [here](./architecture.md) for more details.
 
 ## Examples
 
 - [How to access to SSH server via Point-VPN](./example_ssh.md)
-- [How to access to HTTP server via Point-VPN](./example_http_jp.md)
+- [How to access to HTTP server via Point-VPN](./example_http.md)

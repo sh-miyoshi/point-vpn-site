@@ -24,7 +24,9 @@ https://docs.google.com/forms/d/e/1FAIpQLSeJ_uLqCmH80sbI7V8L5QP_l4kBPEa3ikwE1HHT
 
 ## Point-VPNのアーキテクチャ
 
-[こちら](./architecture_jp.md)をご覧ください。
+![Architecture](./images/architecture.png)
+
+詳細は[こちら](./architecture_jp.md)をご覧ください。
 
 ## Examples
 
