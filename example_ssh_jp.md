@@ -20,7 +20,7 @@
 
 ### 1. ログイン
 
-ChromeなどのブラウザからPoint-VPN Console(https://point-vpn-controller.onrender.com)にアクセスします
+ブラウザからPoint-VPN Console(https://point-vpn-controller.onrender.com)にアクセスします
 
 初回の場合は「Sign up」、2回目以降の場合は「Login」を選択してください
 
@@ -30,24 +30,28 @@ ChromeなどのブラウザからPoint-VPN Console(https://point-vpn-controller.
 
 ![Create User](./images/2_user_create.png)
 
-### 2. Projectの作成
+### 2. Routeの作成
 
-まずはアクセスを管理するProjectを作成します。
-なお、Projectには1つのServer Agentと複数のClient Agentを登録できます。
-ログイン後、「New project」を選択してください
+まずはアクセスを管理するRouteを作成します。
+RouteはどのServer AgentとどのClient Agentが通信するかといった情報を管理しています。
+ログイン後、「New route」を選択してください
 必要な情報を入力後、「Create」ボタンを押してください
-Outgoing AddressにはServer AgentからSSHサーバーへのアクセス先を指定します
+
+Client AgentブロックのIncomming AddressはSSHクライアントでアクセスするためのアドレスを指定してください
+ユーザー名、パスワードは入力できますが、現在は無視されます
+
+Server AgentブロックのOutgoing AddressにはServer AgentからSSHサーバーへのアクセス先を指定します
 Formatは`ssh://<username>:<password>@<address>:<port>`になります
 ※SSHは現在パスワード認証のみサポートしており、公開鍵認証は制作中です
 
-![Create Project](./images/3_create_project.png)
+![Create Route](./images/3_create_route.png)
 
 ### 3. Server Agentの起動
 
 次にServer Agentを起動してみましょう。
-Project一覧ページから先ほど作成したProjectの「Edit」ボタンを押してください
+Route一覧ページから先ほど作成したProjectの「Edit」ボタンを押してください
 
-![Project Index](./images/4_project_index.png)
+![Route Index](./images/4_project_index.png)
 
 移動先はProject詳細ページで、ここでServer AgentやClient Agentの管理ができます
 Server Agentの起動コマンドは、Server Agentのブロックの「Run Command」ボタンを押すと表示されます
@@ -66,8 +70,6 @@ Server Agentの起動コマンドは、Server Agentのブロックの「Run Comm
 ![Project Show](./images/7_project_show.png)
 
 必要な情報を入力し「Create」ボタンを押してください
-Incomming AddressはSSHクライアントでアクセスするためのアドレスを指定してください
-ユーザー名、パスワードは入力できますが、現在は無視されます
 
 ![Create Client Agent](./images/8_create_client_agent.png)
 
