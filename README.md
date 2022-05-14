@@ -1,4 +1,4 @@
 # Point-VPN
 
 Documents for point-vpn.
-Please see [index.md](./index.md) for more details.
+Please see [Our Web Page](https://sh-miyoshi.github.io/point-vpn-site/) for more details.
