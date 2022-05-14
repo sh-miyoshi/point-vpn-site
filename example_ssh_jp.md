@@ -37,7 +37,7 @@ RouteはどのServer AgentとどのClient Agentが通信するかといった情
 ログイン後、「New route」を選択してください
 必要な情報を入力後、「Create」ボタンを押してください
 
-Client AgentブロックのIncomming AddressはSSHクライアントでアクセスするためのアドレスを指定してください
+Client AgentブロックのIncoming AddressはSSHクライアントでアクセスするためのアドレスを指定してください
 ユーザー名、パスワードは入力できますが、現在は無視されます
 
 Server AgentブロックのOutgoing AddressにはServer AgentからSSHサーバーへのアクセス先を指定します
@@ -64,10 +64,10 @@ Server Agentの起動コマンドは、Server Agentのブロックの「Run Comm
 
 ### 4. Client Agentの起動
 
-最後に自身がアクセスするClient Agentを登録し起動させます。
+最後に自身がアクセスするClient Agentを起動させます。
 再びブラウザのRoute詳細画面からClient Agentのブロックの「Run Command」ボタンを押してください
 表示された値をコピーし、自身のPCで実行してClient Agentを起動してください
-Client Agent起動後、Incomming Addressで指定したアドレスに対してSSHコマンドでアクセスしてください
+Client Agent起動後、Incoming Addressで指定したアドレスに対してSSHコマンドでアクセスしてください
 
 ![Client Agent Run Command](./images/7_client_agent_run_command.png)
 

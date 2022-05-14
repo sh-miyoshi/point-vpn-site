@@ -29,51 +29,49 @@ If you are logging in for the first time, please also register your User Name af
 
 ![Create User](./images/2_user_create.png)
 
-### 2. Create a project
+### 2. Create a route
 
-First, create a Project to manage access.
-Note that one Server Agent and multiple Client Agents can be registered in a project.
-After logging in, select "New project".
+First, create a Route to manage access.
+A Route manages information such as which Server Agents communicate with which Client Agents.
+
+After logging in, select "New route".
 After entering the necessary information, click the "Create" button.
-Outgoing Address specifies where the SSH server is accessed from the Server Agent.
+
+Specify the address to be accessed by the SSH client in the "Incoming Address" field in Client Agent block.
+You can enter a user name and password, but they will be ignored for now.
+
+Outgoing Address in Server Agent block specifies where the SSH server is accessed from the Server Agent.
 Format is `ssh://<username>:<password>@<address>:<port>`.
 ※SSH currently supports password authentication only; public key authentication is in the works
 
-![Create Project](./images/3_create_project.png)
+![Create Route](./images/3_create_route.png)
 
 ### 3. Start server agent
 
 Next, start the Server Agent.
-From the Project List page, click the "Edit" button for the Project you just created.
+From the Route List page, click the "Edit" button for the Route you just created.
 
-![Project Index](./images/4_project_index.png)
+![Route Index](./images/4_route_index.png)
 
-Go to the Project Details page, where you can manage Server Agents and Client Agents.
+Go to the Route Details page, where you can manage Server Agents and Client Agents.
+
+![Route Show](./images/5_route_show.png)
+
 The command to start the Server Agent is displayed by pressing the "Run Command" button in the Server Agent block.
 Copy the value and execute it on the server where you want to install the Server Agent.
 
-![Project Show](./images/5_project_show.png)
+![Server Agent Run Command](./images/6_server_agent_run_command.png)
 
-![Server Agent Run Command](./images/6_run_command.png)
+### 4. Start client agent
 
-### 4. Register and start client agent
+Finally, start the Client Agent.
 
-Finally, register and activate the Client Agent.
+Again, from the Route details screen of the browser, press the "Run Command" button in the Client Agent block.
 
-Click the "Add Agent" button on the Project Details screen of the browser again.
+Copy the displayed value and execute it on your PC to start the Client Agent.
+After starting the Client Agent, access the address specified in the "Incoming Address" field with the SSH command.
 
-![Project Show](./images/7_project_show.png)
-
-Enter the required information and click the "Create" button.
-Specify the address to be accessed by the SSH client in the "Incomming Address" field.
-You can enter a user name and password, but they will be ignored for now.
-
-![Create Client Agent](./images/8_create_client_agent.png)
-
-Obtain the startup code from the "Run Command" button as in the case of the Server Agent, and execute it on your PC to start the Client Agent.
-After starting the Client Agent, access the address specified in the "Incomming Address" field with the SSH command.
-
-![Client Agent Show](./images/9_client_agent_show.png)
+![Client Agent Run Command](./images/7_client_agent_run_command.png)
 
 ```bash
 ssh localhost -p 30000
