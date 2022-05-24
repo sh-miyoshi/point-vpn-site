@@ -14,6 +14,8 @@ For example, you only need to be able to access the SSH server that you manage, 
 Point-VPN is a service that allows you to control connections on an app-by-app basis, rather than connecting networks.
 In less than 5 minutes, you can build an environment where only you can access your server, protected by a Firewall.
 
+![image](./images/image.png)
+
 ## Caution
 
 Currently, Point-VPN is still in the Proof of Concept (PoC) stage.
@@ -22,13 +24,13 @@ We look forward to your feedback.
 
 Please give us your feedback from [here](https://docs.google.com/forms/d/e/1FAIpQLSdJ_sZ56BMt2ELLJro-eh5cOn2ZvQze04a6WKRgA3W7Jiz97Q/viewform?usp=sf_link).
 
+## Examples
+
+- [How to access to SSH server via Point-VPN](./example_ssh.md)
+- [How to access to HTTP server via Point-VPN](./example_http.md)
+
 ## Architecture of Point-VPN
 
 ![Architecture](./images/architecture.png)
 
 Please see [here](./architecture.md) for more details.
-
-## Examples
-
-- [How to access to SSH server via Point-VPN](./example_ssh.md)
-- [How to access to HTTP server via Point-VPN](./example_http.md)
