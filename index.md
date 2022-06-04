@@ -2,6 +2,10 @@
 
 日本語版は[こちら](./index_jp.md)。
 
+## Product Console URL
+
+[https://point-vpn-web.onrender.com/login](https://point-vpn-web.onrender.com/login)
+
 ## What's Point-VPN?
 
 Point VPN is a service that provides a next generation VPN (Virtual Private Network).
